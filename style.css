@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center; /* rata tengah horizontal */
+    align-items: center;  
+    text-align: center;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.Text{
+    font-size: 20px;
+}
+
+.Kotak{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: solid;
+    width: fit-content;
+}
+
